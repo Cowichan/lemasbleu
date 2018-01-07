@@ -27,3 +27,7 @@ body {
 .banner-content a {
   margin: 10px;
 }
+
+.banner-content {
+  max-width: 800px;
+}
