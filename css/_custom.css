@@ -1,0 +1,25 @@
+.slider-item img {
+  max-width: 500px !important;
+  margin: auto;
+}
+
+.slider-item {
+  /*  opacity: 0;*/
+}
+
+div.owl-item.active {
+  /*max-width: 500px !important;*/
+}
+
+.owl-carousel.major-caousel {
+  box-shadow: none !important;
+}
+
+/*ligne 802 style.css */
+.owl-carousel.major-caousel .owl-nav .owl-prev {
+  left: 0px !important;
+}
+
+.owl-carousel.major-caousel .owl-nav .owl-next {
+  right: 0px !important;
+}
