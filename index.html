@@ -52,7 +52,7 @@
         <div class="row">
           <div class="col-4 site-logo" data-aos="fade"><a href="index.html" class="animsition-link">Le Mas Bleu en Provence</a></div>
           <div class="col-8">
-
+<a href="#next-session2">dzzzzze</a>
 
             <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
               <span></span>
@@ -67,9 +67,9 @@
                   <div class="row full-height align-items-center">
                     <div class="col-md-12 justify-content-center">
                       <ul class="list-unstyled menu">
-                        <li class="active"><a href="index.html" class="">Accueil</a></li>
-                        <li class="active"><a href="http://localhost/www-dev/sites/projets/developpement/lemasbleu/index.html#next-section" class="">Hotels</a></li>
-                        <li><a href="#next-section" class="animsition-link">About Us</a></li>
+                        <li class="active"><a href="index.html#next-session2" class="animsition-link">Accueil</a></li>
+                        <li><a href="index.html#next-session2" class="animsition-link">Hotels</a></li>
+                        <li><a href="about.html" class="animsition-link">About Us</a></li>
                         <li><a href="gallery.html" class="animsition-link">Gallery</a></li>
                         <li><a href="blog.html" class="animsition-link">News</a></li>
                         <li><a href="contact.html" class="animsition-link">Contact</a></li>
@@ -98,12 +98,12 @@
             </p>
           </div>
         </div>
-        <p  data-aos="fade-up" data-aos-offset="-500"><a href="#next-section" class="scroll-down smoothscroll"> <span class="fa fa-play"></span> En savoir plus</a></p>
+        <p data-aos="fade-up" data-aos-offset="-500"><a href="#next-section" class="scroll-down smoothscroll"> <span class="fa fa-play"></span> En savoir plus</a></p>
       </div>
     </section>
     <!-- END section -->
-
-
+<div id="next-session2">ssesesees</div>
+<div id="next-session2"></div>
     <section class="section" id="next-section">
       <div class="container">
         <div class="row align-items-center">
@@ -354,5 +354,15 @@
 <script src="js/animsition.min.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/main.js"></script>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 </body>
 </html>
