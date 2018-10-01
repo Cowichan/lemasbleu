@@ -23,3 +23,9 @@ div.owl-item.active {
 .owl-carousel.major-caousel .owl-nav .owl-next {
   right: 0px !important;
 }
+
+.owl-carousel.major-caousel .slider-item img {
+    margin-bottom: 0;
+    max-width: 500px;
+    margin: auto;
+}
