@@ -1054,5 +1054,5 @@ textarea.form-control {
 
 .slider-item img {
   max-width: 500px !important;
-  margin: auto;
+  margin: auto !important;
 }
