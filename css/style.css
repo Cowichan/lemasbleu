@@ -1049,3 +1049,10 @@ textarea.form-control {
   -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
 }
+
+/*MY CSS*/
+
+.slider-item img {
+  max-width: 500px !important;
+  margin: auto;
+}

@@ -24,8 +24,8 @@ div.owl-item.active {
   right: 0px !important;
 }
 
-.owl-carousel.major-caousel .slider-item img {
-    margin-bottom: 0;
-    max-width: 500px;
-    margin: auto;
-}
+/*.owl-stage-outer {
+      max-width: 538px !important;
+        max-height: 428px !important;
+
+}*/
