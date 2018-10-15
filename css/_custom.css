@@ -1,5 +1,5 @@
 .addpad {
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
 
 .slider-item {
@@ -33,7 +33,7 @@ div.owl-item.active {
 .slider-item {
     max-width: 500px !important;
     margin: auto !important;
-    position: relative;
+    position: relative !important;
 }
 
 .slider-item figcaption {
@@ -41,8 +41,8 @@ div.owl-item.active {
     position: absolute !important;
     bottom: 0px !important;
     color: white !important;
-    width: 100%;
-    padding: 10px;
+    width: 100% !important;
+    padding: 10px !important;
 }
 
 .slider-item figcaption h4 {
