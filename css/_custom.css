@@ -16,15 +16,39 @@ div.owl-item.active {
 
 /*ligne 802 style.css */
 .owl-carousel.major-caousel .owl-nav .owl-prev {
-  left: 0px !important;
+  left: 150px !important;
+
 }
 
 .owl-carousel.major-caousel .owl-nav .owl-next {
-  right: 0px !important;
+  right: 150px !important;
+
 }
 
 /*.owl-stage-outer {
       max-width: 538px !important;
         max-height: 428px !important;
-
 }*/
+
+.slider-item {
+    max-width: 500px !important;
+    margin: auto !important;
+    position: relative;
+}
+
+.slider-item figcaption {
+    background: rgba(50, 50, 50, 0.5) none repeat scroll 0 0 !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    color: white !important;
+    width: 100%;
+    padding: 10px;
+}
+
+.slider-item figcaption h4 {
+    color: white !important;
+}
+
+.owl-carousel.major-caousel .owl-dots {
+    bottom: 5px !important;
+}

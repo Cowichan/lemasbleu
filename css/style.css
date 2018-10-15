@@ -801,9 +801,9 @@ textarea.form-control {
 
 
 
-.owl-carousel.major-caousel .owl-dots {
+/*.owl-carousel.major-caousel .owl-dots {
   bottom: 50px !important;
-}
+}*/
 
 @media (max-width: 991.98px) {
   .owl-carousel.major-caousel .owl-dots {
