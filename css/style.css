@@ -1096,7 +1096,7 @@ div.owl-item.active {
 }
 
 .slider-item figcaption {
-    background: rgba(50, 50, 50, 0.5) none repeat scroll 0 0 !important;
+    background: rgba(50, 50, 50, 0.7) none repeat scroll 0 0 !important;
     position: absolute !important;
     bottom: 0px !important;
     color: white !important;
@@ -1110,4 +1110,28 @@ div.owl-item.active {
 
 .owl-carousel.major-caousel .owl-dots {
     bottom: 5px !important;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .owl-carousel.major-caousel .owl-dots 
+     {
+        display: none;
+    }
+    
+    .slider-item {
+    max-width: 300px !important;
+    margin: auto !important;
+    position: relative !important;
+    }
+    
+    .slider-item figcaption {
+    background: rgba(50, 50, 50, 0.7) none repeat scroll 0 0 !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    color: white !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+
+    }
 }
