@@ -1056,3 +1056,58 @@ textarea.form-control {
   max-width: 500px !important;
   margin: auto !important;
 }
+
+.addpad {
+    padding-top: 100px !important;
+}
+
+.slider-item {
+  /*  opacity: 0;*/
+}
+
+div.owl-item.active {
+  /*max-width: 500px !important;*/
+}
+
+.owl-carousel.major-caousel {
+  box-shadow: none !important;
+}
+
+/*ligne 802 style.css */
+.owl-carousel.major-caousel .owl-nav .owl-prev {
+  left: 150px !important;
+
+}
+
+.owl-carousel.major-caousel .owl-nav .owl-next {
+  right: 150px !important;
+
+}
+
+/*.owl-stage-outer {
+      max-width: 538px !important;
+        max-height: 428px !important;
+}*/
+
+.slider-item {
+    max-width: 500px !important;
+    margin: auto !important;
+    position: relative !important;
+}
+
+.slider-item figcaption {
+    background: rgba(50, 50, 50, 0.5) none repeat scroll 0 0 !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    color: white !important;
+    width: 100% !important;
+    padding: 10px !important;
+}
+
+.slider-item figcaption h4 {
+    color: white !important;
+}
+
+.owl-carousel.major-caousel .owl-dots {
+    bottom: 5px !important;
+}
