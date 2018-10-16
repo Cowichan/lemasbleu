@@ -31,7 +31,7 @@ div.owl-item.active {
 }*/
 
 .slider-item {
-    max-width: 500px !important;
+    max-width: 300px !important;
     margin: auto !important;
     position: relative !important;
 }
