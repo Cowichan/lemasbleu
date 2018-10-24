@@ -1120,6 +1120,14 @@ div.owl-item.active {
     background-color: #F7F5F5;
 }
 
+/*a.colorml {
+    color: color: rgba(255, 255, 255, 0.5) !important;
+} */
+
+.footer-section a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 @media screen and (max-width: 480px) {
     
     .owl-carousel.major-caousel .owl-dots 
