@@ -1112,6 +1112,14 @@ div.owl-item.active {
     bottom: 5px !important;
 }
 
+.cnoir {
+    color: #000;
+}
+
+.global {
+    background-color: #F7F5F5;
+}
+
 @media screen and (max-width: 480px) {
     
     .owl-carousel.major-caousel .owl-dots 
